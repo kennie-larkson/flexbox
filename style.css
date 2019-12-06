@@ -1,0 +1,29 @@
+/*some default styles to make each vox visible*/
+.box{
+    
+    color: mistyrose;
+    font-size: 100px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+}
+
+/*colors for each box*/
+.box1{background: greenyellow;}
+.box2{background: hotpink;}
+.box3{background: indianred;}
+.box4{background: indigo;}
+.box5{background: khaki;}
+.box6{background: lawngreen;}
+.box7{background: lightsalmon;}
+.box8{background: magenta;}
+.box9{background: mediumorchid;}
+.box10{background: midnightblue;}
+
+/*We start writing out Flexbox here. The above is just page setup*/
+.container{
+    display: flex;
+    border: 10px solid goldenrod;
+    height: 100vh;
+
+}
